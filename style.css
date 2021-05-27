@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dadada;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+}
+
+body {
+    background-color: #fff;
+}
+
+#debug {
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-color: #f00;
+}
+
+.container {
+  font-family: Roboto, Arial, sans-serif;
+  width: 420px;
+  margin: 0 auto;
+  height: 450px;
+}
+
+.offer {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 26px;
+  width: 420px;
+  height: 80px;
+  padding-top: 60px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.plus {
+  float: right;
+  color: #000;
+  font-size: 20px;
+}
+.plus > a {
+  Background-color: #cecece;
+  font-size: 14px;
+  padding: 5px;
+  position: relative;
+  text-decoration: none;
+  border: 1px solid #9a9a9a;
+}
+.plus > a:link {
+  color: #000;
+  text-decoration: none;
+}
+.plus > a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.plus2 {
+  float: right;
+  color: #9a9a9a;
+}
+.plus2 > a {
+  Background-color: #efefef;
+  padding-left: 2px;
+  padding-right: 1px;
+  top: 1px;
+  position: relative;
+  text-decoration: none;
+  font-size: 22px;
+  border: 1px solid #9a9a9a;
+}
+.plus2 > a:link {
+  color: #9a9a9a;
+  text-decoration: none;
+}
+.plus2 > a:visited {
+  color: #9a9a9a;
+  text-decoration: none;
+}
+
+.plus3 {
+  float: right;
+  color: #9a9a9a;
+}
+.plus3 > a {
+  Background-color: #efefef;
+  padding-left: 2px;
+  padding-right: 1px;
+  top: -3px;
+  position: relative;
+  text-decoration: none;
+  font-size: 22px;
+  border: 1px solid #9a9a9a;
+}
+.plus3 > a:link {
+  color: #9a9a9a;
+  text-decoration: none;
+}
+.plus3 > a:visited {
+  color: #9a9a9a;
+  text-decoration: none;
+}
+
+#latestoffer {
+  color: #bbb;
+}
+#latestoffer > a {
+  Background-color: #cecece;
+  font-size: 14px;
+  text-decoration: none;
+}
+#latestoffer > a:link {
+  text-decoration: none;
+}
+#latestoffer > a:visited {
+  text-decoration: none;
+}
+
+#latestoffer2 {
+  float: left;
+  padding-bottom: 45px;
+}
+
+#latestoffer2 > a {
+  color: #000;
+  text-decoration: none;
+}
+#latestoffer2 > a:link {
+  text-decoration: none;
+  color: #000;
+}
+#latestoffer2 > a:visited {
+  text-decoration: none;
+  color: #000;
+}
+#latestoffer2 > a:hover {
+  color: #939393;
+}
+
+#latestoffer3 {
+  float: right;
+  color: #000;
+}
+
+
+#latestoffer4 {
+  float: left;
+  padding-bottom: 45px;
+}
+
+#latestoffer5 {
+  float: right;
+}
+
+
+#latestoffer6 {
+  float: right;
+  font-size: 18px;
+  padding-top: 5px;
+}
+#latestoffer6 > a {
+  border: 1px solid #9a9a9a;
+  Background-color: #cecece;
+  font-size: 14px;
+  padding: 6px;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+
+.list {
+  padding: 5px 12px 20px 20px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #222;
+  font-size: 12px;
+  background-color: #f8f8f8;
+  list-style: none;
+  width: 386px;
+  height: 250px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f0f0f0;
+  overflow-y: scroll;
+}
+.list > li {
+  border-bottom: 1px solid #cecece;
+  padding: 14px;
+  display: block;
+  color: #939393;
+  text-decoration: none;
+  position: relative;
+}
+.list a:link {
+  color: #939393;
+}
+.list a:visited {
+  color: #939393;
+}
+
+.price {
+  border: 0;
+  Float: right;
+}
+
+.date {
+  right: 80px;
+  position: absolute;
+}
+
+.collector {
+  left: 0px;
+  position: absolute;
+  color: #999;
+}
+
+#show {
+  position: absolute;
+  left: 50%;
+  transform: translateX(600%);
+  top: 35px;
+}
+
+#make {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 26px;
+  background-color: #fff;
+  width: 420px;
+  height: 80px;
+  padding: 18px 20px 25px 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+ 
+  top: 50px;
+}
+
+#themessage {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #9a9a9a;
+  Background-color: #cecece;
+  padding: 16px;
+  text-decoration: none;
+  position: relative;
+  width: 386px;
+  height: 250px;
+  margin: 0 auto;
+  top: -280px;
+}
+
+.twitter {
+  Float: right;
+  font-size: 12px;
+  padding: 14px;
+}
+.twitter > a {
+  color: #9a9a9a;
+}
+.twitter a:link {
+  color: #939393;
+}
+.twitter a:visited {
+  color: #939393;
+}
