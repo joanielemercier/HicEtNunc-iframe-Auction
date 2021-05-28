@@ -14,8 +14,9 @@
   console.log(c, v);
   ]]></script>
   <script>
+//Link to your server/php file here.
 function myFunction() {
-  document.getElementById("myObject").data = "https://www.joanielemercier.com/hicetnunc/auction/index.php?c="+c+"&#38;"+"v="+v;
+  document.getElementById("myObject").data = "index.php?c="+c+"&#38;"+"v="+v;
 }
 </script>
 
